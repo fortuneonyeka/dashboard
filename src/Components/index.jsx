@@ -1,8 +1,7 @@
-export { default as Button } from './Button';
+export { default as Buttons } from './Buttons';
 export { default as ThemeSettings } from './ThemeSettings';
-export { default as Sidebar } from './Sidebar';
-//eslint-disable-next-line import/no-cycle
-export { default as Navbar } from './Navbar';
+export { default as SideBar } from './SideBar';
+export { default as NavBar } from './NavBar';
 export { default as Footer } from './Footer';
 export { default as Cart } from './Cart';
 export { default as Chat } from './Chat';

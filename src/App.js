@@ -3,10 +3,8 @@ import React, {useEffect} from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import {FiSettings} from "react-icons/fi"
 import {TooltipComponent} from "@syncfusion/ej2-react-popups"
-import Orders from "./Pages/Orders";
-import Employees from "./Pages/Employees";
-import Customers from "./Pages/Customers";
-
+import {NavBar, Footer, SideBar, ThemeSetting,LineChart} from "./Components"
+import {Ecommerce,Customers,Orders,Calendar,Employees,Stacked,Pyramid,Kanban,Area,Bar,Pie,Financial,ColorMapping,ColorPicker,Editor} from "./Pages"
 
 
 const App = () => {
@@ -56,7 +54,7 @@ const App = () => {
       <Route path="/color-picker" element={<ColorPicker/>}/>
 
       {/* Charts */}
-      <Route path="/line" element={<Line/>}/>
+      <Route path="/linechart" element={<LineChart/>}/>
       <Route path="/area" element={<Area/>}/>
       <Route path="/bar" element={<Bar/>}/>
       <Route path="/pie" element={<Pie/>}/>

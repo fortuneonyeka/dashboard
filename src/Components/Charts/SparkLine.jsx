@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SpartLine = () => {
+const SparkLine = () => {
   return (
     <div>SpartLine</div>
   )
 }
 
-export default SpartLine
+export default SparkLine
