@@ -5,7 +5,7 @@ import {FiSettings} from "react-icons/fi"
 import {TooltipComponent} from "@syncfusion/ej2-react-popups"
 import Orders from "./Pages/Orders";
 import Employees from "./Pages/Employees";
-import Customers from "./Customers";
+import Customers from "./Pages/Customers";
 
 
 
